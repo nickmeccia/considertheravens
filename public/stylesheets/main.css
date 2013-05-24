@@ -42,38 +42,64 @@ p {
 -------------------------------------------------------------------------*/
 
 .window {
+  height: 80%;
   width: 100%;
-  height: 90%;
 }
 .content {
   background-color: #fbf5f2;
+  height: 110%;
   width: 100%;
   text-align: center
 }
+figure {
+  background-color: #fbf5f2;
+  border-radius: 50%;
+  display: inline-block;
+  width: 3.9375rem;
+  margin-top: -2.3rem;
+  padding: 0.6875rem;
+}
+figure img {
+  height: auto;
+  width: 100%;
+}
 header {
-  padding-top: 1rem;
+  margin: 1rem 0 2.625rem;
 }
 header img {
-  width: 90%;
   height: auto;
+  width: 90%;
   margin-top: 3%;
 }
 section {
-  text-align: left;
   margin: 2.625rem auto 1.3125rem;
+  text-align: left;
   width: 90%;
 }
 footer {
   padding: 2.625rem;
 }
 footer img {
-  width: 20%;
   height: auto;
+  width: 20%;
 }
 
 @media only screen and (min-width: 600px) {
+  .window {
+    height: 90%;
+  }
+  figure {
+    width: 12%;
+    padding: 2%;
+    margin-top: -7%;
+  }
   footer img {
     width: 25%;
+  }
+  section {
+    display: inline-block;
+    margin: 0 auto;
+    width: auto;
   }
 }
 
@@ -88,10 +114,6 @@ footer img {
   header img {
     width: 70%;
   }
-  section {
-    float: right;
-    width: 60%;
-  }
   footer {
     padding-top: 2.1rem;
     padding-left: 15%;
@@ -100,10 +122,6 @@ footer img {
   footer img {
     width: 160px;
   }
-}
-
-@media only screen and (min-width: 800px) {
-
 }
 
 /* FONTS
