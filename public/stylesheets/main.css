@@ -109,6 +109,10 @@ footer {
   width: 90%;
   padding: 1.3125rem 1.3125rem 2.625rem;
 }
+.preloader {
+  position: absolute;
+  left: -99999px;
+}
 
 @media only screen and (min-width: 600px) {
   .window {
