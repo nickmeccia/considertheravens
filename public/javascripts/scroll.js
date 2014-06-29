@@ -6,7 +6,6 @@ $('document').ready(function() {
 
   win.scroll(function() {
     var top = win.scrollTop()
-    bg.css({'background-position-y': .05*top + 30 + '%'})
-
+    bg.css({'background-position': '0px ' + -1 * 0.1*top + 'px'})
   })
 })
