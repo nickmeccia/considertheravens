@@ -54,7 +54,7 @@ a:hover {
 .background {
   width: 100%;
   height: 100%;
-  background: url('../images/masthead.jpg') no-repeat center 30% fixed;
+  background: url('../images/masthead.jpg') no-repeat center center fixed;
   background-size: cover;
   position: fixed;
 }
